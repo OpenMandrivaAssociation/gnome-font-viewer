@@ -23,7 +23,6 @@ Font viewer for Gnome desktop.
 
 %build
 %configure2_5x \
-	--disable-rpath \
 	--disable-schemas-compile
 %make
 
