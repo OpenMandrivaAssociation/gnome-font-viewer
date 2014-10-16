@@ -2,8 +2,8 @@
 
 Summary:	GNOME Font viewer
 Name:		gnome-font-viewer
-Version:	3.6.2
-Release:	7
+Version:	3.14.0
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
 Url:		http://www.gnome.org
@@ -22,7 +22,7 @@ Font viewer for Gnome desktop.
 %setup -q
 
 %build
-%configure2_5x \
+%configure \
 	--disable-schemas-compile
 %make
 
@@ -36,5 +36,8 @@ Font viewer for Gnome desktop.
 %{_bindir}/%{name}
 %{_bindir}/gnome-thumbnail-font
 %{_datadir}/thumbnailers/gnome-font-viewer.thumbnailer
-%{_datadir}/applications/%{name}.desktop
+%{_datadir}/appdata/org.gnome.font-viewer.appdata.xml
+%{_datadir}/applications/org.gnome.font-viewer.desktop
+%{_datadir}/dbus-1/services/org.gnome.font-viewer.service
+
 
