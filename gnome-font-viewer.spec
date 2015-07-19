@@ -3,7 +3,7 @@
 Summary:	GNOME Font viewer
 Name:		gnome-font-viewer
 Version:	 3.16.0
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
 Url:		http://www.gnome.org
