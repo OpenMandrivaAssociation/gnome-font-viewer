@@ -1,8 +1,2 @@
-removed_sources:
-  gnome-font-viewer-3.14.0.tar.xz: cae000420e50afd1f4332584ba31a6b993f4d66a
-  gnome-font-viewer-3.16.0.tar.xz: f1e2efd167d02aa53e8b11ac5195d835869e9c16
-  gnome-font-viewer-3.6.1.tar.xz: 66a88beed03208af82727d60906f35ac363826b0
-  gnome-font-viewer-3.6.2.tar.xz: f1ac0c69036b215ac036f88481a775a3946b97a8
-  gnome-font-viewer-3.16.2.tar.xz: 8db0d067992d47b5814c2eae231ba072c596f7a8
 sources:
-  gnome-font-viewer-3.30.0.tar.xz: ae3e442c828dc296dcc54b9503144dfbbe412501
+  gnome-font-viewer-3.32.0.tar.xz: a3ec9a18f1ca51926f4e82e76307eb96d8ccdd6b
