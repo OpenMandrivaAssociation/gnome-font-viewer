@@ -43,5 +43,6 @@ desktop-file-edit %{buildroot}%{_datadir}/applications/org.gnome.font-viewer.des
 %{_datadir}/metainfo/org.gnome.font-viewer.appdata.xml
 %{_datadir}/applications/org.gnome.font-viewer.desktop
 %{_datadir}/dbus-1/services/org.gnome.font-viewer.service
+%{_iconsdir}/hicolor/scalable/apps/org.gnome.font-viewer*.svg
 
 
