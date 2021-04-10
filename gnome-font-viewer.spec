@@ -14,6 +14,8 @@ BuildRequires:	pkgconfig(gnome-desktop-3.0)
 BuildRequires:	pkgconfig(gio-2.0) 
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(freetype2)
+BuildRequires:  pkgconfig(libhandy-1)
+BuildRequires:  cmake
 BuildRequires:	meson
 Conflicts:	gnome-utils < 1:3.3.1
 
