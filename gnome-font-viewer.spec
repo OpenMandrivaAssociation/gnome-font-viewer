@@ -14,7 +14,7 @@ BuildRequires:	pkgconfig(gnome-desktop-4)
 BuildRequires:	pkgconfig(gio-2.0) 
 BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(freetype2)
-BuildRequires:  pkgconfig(libhandy-1)
+BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  cmake
 BuildRequires:	meson
 Conflicts:	gnome-utils < 1:3.3.1
