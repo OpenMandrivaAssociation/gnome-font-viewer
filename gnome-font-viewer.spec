@@ -11,6 +11,7 @@ Group:		Graphical desktop/GNOME
 Url:		https://www.gnome.org
 Source0:	https://ftp.gnome.org/pub/GNOME/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	intltool
+BuildRequires:  desktop-file-utils
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gnome-desktop-4)
 BuildRequires:	pkgconfig(gio-2.0) 
